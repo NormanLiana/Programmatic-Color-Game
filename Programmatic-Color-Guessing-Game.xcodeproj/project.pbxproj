@@ -13,6 +13,7 @@
 		A55AB106234FC251004C0B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55AB104234FC251004C0B9D /* LaunchScreen.storyboard */; };
 		A55AB111234FC252004C0B9D /* Programmatic_Color_Guessing_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AB110234FC252004C0B9D /* Programmatic_Color_Guessing_GameTests.swift */; };
 		A55AB11D234FC4F6004C0B9D /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AB11C234FC4F6004C0B9D /* ColorModel.swift */; };
+		A55AB120234FC5C3004C0B9D /* ColorGuessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AB11F234FC5C3004C0B9D /* ColorGuessVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A55AB110234FC252004C0B9D /* Programmatic_Color_Guessing_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_Color_Guessing_GameTests.swift; sourceTree = "<group>"; };
 		A55AB112234FC252004C0B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A55AB11C234FC4F6004C0B9D /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		A55AB11F234FC5C3004C0B9D /* ColorGuessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGuessVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		A55AB0F8234FC24F004C0B9D /* Programmatic-Color-Guessing-Game */ = {
 			isa = PBXGroup;
 			children = (
+				A55AB11E234FC58A004C0B9D /* Controllers */,
 				A55AB11B234FC4D8004C0B9D /* Models */,
 				A55AB0F9234FC24F004C0B9D /* AppDelegate.swift */,
 				A55AB0FB234FC24F004C0B9D /* SceneDelegate.swift */,
@@ -102,6 +105,14 @@
 				A55AB11C234FC4F6004C0B9D /* ColorModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A55AB11E234FC58A004C0B9D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A55AB11F234FC5C3004C0B9D /* ColorGuessVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55AB120234FC5C3004C0B9D /* ColorGuessVC.swift in Sources */,
 				A55AB0FA234FC24F004C0B9D /* AppDelegate.swift in Sources */,
 				A55AB0FC234FC24F004C0B9D /* SceneDelegate.swift in Sources */,
 				A55AB11D234FC4F6004C0B9D /* ColorModel.swift in Sources */,
